@@ -8,7 +8,7 @@ namespace Cynthia.Card
     public static class GwentMap
     {
         //更新CardMap内容请务必将CardMapVersion更新
-        public static Version CardMapVersion { get; } = new Version(1, 0, 0, 104);
+        public static Version CardMapVersion { get; } = new Version(1, 0, 0, 105);
         public static IDictionary<string, int> CardIdMap { get; set; }
         public static string[] CardIdIndexMap { get; set; }
 
@@ -146,6 +146,30 @@ namespace Cynthia.Card
             { Categorie.Token, "Token" },
             { Categorie.Agent, "Agent" },
             { Categorie.ClanBrokvar, "ClanBrovkar" },
+            { Categorie.Human, "Human" },
+            { Categorie.Bomb, "Bomb" },
+            { Categorie.Druid, "Druid" },
+            { Categorie.Nature, "Nature" },
+            { Categorie.Warfare, "Warfare" },
+            { Categorie.Specter, "Specter" },
+            { Categorie.Bandit, "Bandit" },
+            { Categorie.Demon, "Demon" },
+            { Categorie.Mutant, "Mutant" },
+            { Categorie.Aristocrat, "Aristocrat" },
+            { Categorie.Plant, "Plant" },
+            { Categorie.Halfling, "Halfling" },
+            { Categorie.Knight, "Knight" },
+            { Categorie.Location, "Location" },
+            { Categorie.Scenario, "Scenario" },
+            { Categorie.Cleric, "Cleric" },
+            { Categorie.Pirate, "Pirate" },
+            { Categorie.Firesworn, "Firesworn" },
+            { Categorie.Trap, "Trap" },
+            { Categorie.Gnome, "Gnome" },
+            { Categorie.Treant, "Treant" },
+            { Categorie.Naiad, "Naiad" },
+            { Categorie.Raid, "Raid" },
+            { Categorie.Crime, "Crime" },
             { Categorie.Test, "Test" },
         };
 
