@@ -77,7 +77,6 @@ namespace Cynthia.Card
         Druid,          //德鲁伊
         Nature,         //自然
         Warfare,        //战争
-        Specter,        //鬼灵
         Bandit,         //匪徒
         Demon,          //恶魔
         Mutant,         //突变
