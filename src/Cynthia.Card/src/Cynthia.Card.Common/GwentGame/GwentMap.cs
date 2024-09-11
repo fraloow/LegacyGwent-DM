@@ -151,7 +151,6 @@ namespace Cynthia.Card
             { Categorie.Druid, "Druid" },
             { Categorie.Nature, "Nature" },
             { Categorie.Warfare, "Warfare" },
-            { Categorie.Specter, "Specter" },
             { Categorie.Bandit, "Bandit" },
             { Categorie.Demon, "Demon" },
             { Categorie.Mutant, "Mutant" },
